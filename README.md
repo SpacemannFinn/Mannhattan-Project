@@ -48,3 +48,5 @@ This repository contains a variety of protocols!
 
 ![Preview 11](https://cdn.discordapp.com/attachments/334011383140188161/340815971205906434/fc3544284db62854e62a9cc5cd61b649.png "Preview 11")
 
+# Extra Notes
+This theme has been designed for users of **Dark Appearance Discord**. It is advised you do so too to get the full experience.
