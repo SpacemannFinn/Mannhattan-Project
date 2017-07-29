@@ -260,6 +260,7 @@
     background-repeat: no-repeat;
 	border: 2px solid #00FD0C;
 }
+
 /*###############################################################################*/
 /*Private Friends Image Formatting*/
 .private-channels .channel .icon-friends {
@@ -1027,7 +1028,7 @@ div.channel.channel-text.selected {
 	text-align: center;
 	font-weight: bold;
     border: 1px solid #00FD0C;
-    background: #000000;a
+    background: #000000;
 }
 
 /**###############################################################################/

@@ -1,4 +1,4 @@
-//META{"name":"Mannhattan Project [Protocol: Red]","description":"A Fallout Inspired Pip-Boy Interface for DIscord. ","author":"The Mann","version":"1.0"}*//{}
+//META{"name":"Mannhattan Project [Protocol: Yellow]","description":"A Fallout Inspired Pip-Boy Interface for DIscord. ","author":"The Mann","version":"1.0"}*//{}
 
 
 /* Copyright (c) 2016-2017 The Mann
@@ -8,8 +8,8 @@
 
 /* Color Palette
  * #000000 - Black
- * #FF0000 - Bright 
- * #5B0000 - Slighly 
+ * #ffff00  - Bright
+ * #7f6b00 - Dark
  */
 
 /*###############################################################################*/
@@ -33,46 +33,46 @@
 
 /*Name of Game*/
 .channel-members .member .member-activity, .channel-members .member .member-username-inner {
-	color: #FF0000;
+	color: #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 /*###############################################################################*/
 /*Role Name Formatting*/
 .theme-dark .channel-members h2 {
-    color: #FF0000;
+    color: #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 /*###############################################################################*/
 /* Mention Styling*/
 .message-group .mentioned .message-text:after {
-	background-color: rgba(91,0,0,.2) !important;
-    border-left: 4px solid #FF0000 !important;
+	background-color: rgba(127,107,0.2) !important;
+    border-left: 4px solid #ffff00  !important;
 	padding-left: 5px;
 }
 
 .message-group .mentioned .message-text{
-	background-color: rgba(91,0,0,.2) !important;
-    border-left: 4px solid #FF0000 !important;
+	background-color: rgba(127,107,0.2) !important;
+    border-left: 4px solid #ffff00  !important;
 	padding-left: 5px;
 }
 
 /*###############################################################################*/
 /* Message Text Styling: */
 .theme-dark .chat>.content .messages .message-group .comment .markup{
-	color:#FF0000;
+	color:#ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 .message-group h2 .timestamp {
-	color:#5B0000 !important;
+	color:#7f6b00 !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	padding: 5px;
 }
 
 .theme-dark .message-group .comment .edited{
-	color:#5B0000 !important;
+	color:#7f6b00 !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	padding: 5px;
 }
@@ -80,7 +80,7 @@
 /*###############################################################################*/
 /*Channel Topic Styling*/
 .chat>.title-wrap.title-wrap-dark .topic {
-	color: #FF0000;
+	color: #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	text-align: center;
 }
@@ -95,7 +95,7 @@
     top: 50%;
     left: 0;
     margin-top: -4px;
-    background-color: #FF0000;
+    background-color: #ffff00;
 }
 
 
@@ -111,11 +111,11 @@
 .contentSelectedVoice-gTtYM9, 
 .contentUnreadText-3oxASB,
 .contentUnreadVoice-1vHNNW {
-	color:#FF0000 !important;
+	color:#ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	text-align: center;
 	background-color: #000000;
-	border: 1px solid #FF0000;
+	border: 1px solid #ffff00 ;
 }
 
 .contentDefaultText-2elG3R,
@@ -130,16 +130,16 @@
 .contentSelectedVoice-gTtYM9, 
 .contentUnreadText-3oxASB,
 .contentUnreadVoice-1vHNNW:hover {
-	color:#FF0000 !important;
+	color:#ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: bold;
 	text-align: center;
 	background-color: #000000;
-	border: 1px solid #FF0000;
+	border: 1px solid #ffff00 ;
 }
 
 .nameHoveredText-2FFqiz:hover{
-	color:#FF0000 !important;
+	color:#ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: bold;
 	text-align: center;
@@ -147,7 +147,7 @@
 }
 
 .nameHoveredText-2FFqiz:active{
-	color:#FF0000 !important;
+	color:#ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: bold;
 	text-align: center;
@@ -167,16 +167,16 @@
 .contentUnreadText-3oxASB, 
 .contentUnreadVoice-1vHNNW:active {
 	background-color: #000000;
-	color:#FF0000 !important;
+	color:#ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: bold;
 	text-align: center;
-	border: 1px solid #FF0000;
+	border: 1px solid #ffff00 ;
 }
 
  .nameHovered-1YFSWq {
 	background-color: #000000;
-	color:#FF0000 !important;
+	color:#ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: bold;
 	text-align: center;
@@ -189,35 +189,35 @@
 	font-weight: bold;
 	text-decoration: underline;
 	text-align: center;
-    color: #FF0000;
+    color: #ffff00 ;
 	font-size: 15px;
 }
 
 /*###############################################################################*/
 /*User Settings Box4 Styling*/
 .container-iksrDt {
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	background-color: #5B0000;
-	border-right: 2px solid #FF0000;
-	border-left: 2px solid #FF0000;
-	border-bottom: 5px solid #FF0000; 
+	background-color: #7f6b00;
+	border-right: 2px solid #ffff00 ;
+	border-left: 2px solid #ffff00 ;
+	border-bottom: 5px solid #ffff00 ; 
 }
 
 /*###############################################################################*/
 /*Line Section Between Message Groups*/
 .theme-dark .message-group:not(.has-divider) {
-    border-bottom-color: #FF0000 !important;
+    border-bottom-color: #ffff00  !important;
 }
 
 /*###############################################################################*/
 /*Server Name Block Styling*/
 .theme-dark .header-1tSljs {
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	background-color: #5B0000;	
-	border-right: 2px solid #FF0000;
-	border-left: 2px solid #FF0000;
+	background-color: #7f6b00;	
+	border-right: 2px solid #ffff00 ;
+	border-left: 2px solid #ffff00 ;
 	text-align: center;
 }
 
@@ -233,7 +233,7 @@
 .channel-name 
 .input-autosize-inner 
 .input-autosize-input {
-    color: #FF0000;
+    color: #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	text-align: center;
 }
@@ -244,7 +244,7 @@
     width: 50px;
     height: 50px;
     background-image: url("https://68.media.tumblr.com/128bedf2f3180b955cb1e8e9b8839546/tumblr_o5hxmgyURp1ugkn5co1_250.png");
-	background-color: #5B0000;
+	background-color: #7f6b00;
     background-size: 50px 100%;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -255,17 +255,17 @@
     width: 50px;
     height: 50px;
     background-image: url("https://lh3.googleusercontent.com/NqWvdpCPyhUUEzQ9dI6PzZ-juuTwsDeKyzrd0sBxBYZXT44PfunUPWviOc2LBtzsEAa7=w256");
-	background-color: #5B0000 !Important;
+	background-color: #7f6b00 !Important;
     background-size: 50px 100%;
     background-position: 50%;
     background-repeat: no-repeat;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 /*###############################################################################*/
 /*Private Friends Image Formatting*/
 .private-channels .channel .icon-friends {
     background-image: url("https://68.media.tumblr.com/128bedf2f3180b955cb1e8e9b8839546/tumblr_o5hxmgyURp1ugkn5co1_250.png");
-	background-color: #5B0000 !Important;
+	background-color: #7f6b00 !Important;
 	background-size: 30px 100%;
 	background-position: 50%;
 	background-repeat: no-repeat;
@@ -276,7 +276,7 @@
 /*###############################################################################*/
 /*Private Friends Selector*/
 .private-channels .channel.selected a {
-	background-color: #5B0000 !Important;
+	background-color: #7f6b00 !Important;
 }
 
 /*###############################################################################*/
@@ -284,7 +284,7 @@
 .nameSelectedText-32NDX5, 
 .nameSelectedVoice-XpjYTw,
 .contentSelectedText-3j5CXt {
-	color: #FF0000;
+	color: #ffff00 ;
 	background-color: #000000;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	text-align: center;
@@ -293,7 +293,7 @@
 /*###############################################################################*/
 /*Generic Hover over Text / Voice Channel Element.*/
 .contentHoveredText-2HY6IY, .nameHoveredVoice-TIoHRJ{
-	color: #FF0000;
+	color: #ffff00 ;
 	
 }
 
@@ -301,22 +301,22 @@
 /*Bot Tag Styling*/
 .bot-tag {
 	color: #000000 !important;
-    background: #5B0000;
+    background: #7f6b00;
 	font-weight: bold !important;
 }
 
 /*###############################################################################*/
 /*Generic Messages Styling*/
 .chat .messages {
-	border-top: 2px solid #FF0000;
-	border-bottom: 2px solid #FF0000;
+	border-top: 2px solid #ffff00 ;
+	border-bottom: 2px solid #ffff00 ;
 }
 
 /*###############################################################################*/
 /*Channel Members Styling*/
 .theme-dark .channel-members {
-	border-right: 2px solid #FF0000;
-	border-left: 2px solid #FF0000;
+	border-right: 2px solid #ffff00 ;
+	border-left: 2px solid #ffff00 ;
     background-color: #000000;
 }
 
@@ -324,7 +324,7 @@
 /*Text Area Styling*/
 .theme-dark .textArea-20yzAH {
 	text-align: center;
-	color: #5B0000;
+	color: #7f6b00;
 	background-color: #000000;	
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
@@ -333,16 +333,16 @@
 /*Generic Element Styling*/
 .theme-dark .inner-3if5cm {
 	text-align: center;
-	color: #5B0000;
+	color: #7f6b00;
 	background-color: #000000;	
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 
 /*###############################################################################*/
 /*Channel Icon Styling*/
 .icon-3tVJnl {
-	color: #FF0000;
-	background-color: #FF0000;
+	color: #ffff00 ;
+	background-color: #ffff00 ;
     margin-right: 4px;
     display: block;
     opacity: .6;
@@ -351,29 +351,29 @@
 /*###############################################################################*/
 /*Members List Styling Elements*/
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members {
-	border-top: 2px solid #FF0000;
-	border-bottom: 2px solid #FF0000;
-	border-right: 2px solid #FF0000;
+	border-top: 2px solid #ffff00 ;
+	border-bottom: 2px solid #ffff00 ;
+	border-right: 2px solid #ffff00 ;
 }
 
 
 /*###############################################################################*/
 /*I can't remember what this does but eh, I'm sure its fine to stay in the code... (Nothing happens when you comment it out either...)*/
 .container-3lnMWU {
-	color: #FF0000;
+	color: #ffff00 ;
 	
 	background-color: #000000;
 	
-	border-top: 2px solid #FF0000;
-	border-bottom: 2px solid #FF0000;
-	border-right: 2px solid #FF0000;
-	border-left: 2px solid #FF0000;
+	border-top: 2px solid #ffff00 ;
+	border-bottom: 2px solid #ffff00 ;
+	border-right: 2px solid #ffff00 ;
+	border-left: 2px solid #ffff00 ;
 }
 
 /*###############################################################################*/
 /**/
 .app a, .connecting a {
-	color: #FF0000;
+	color: #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
@@ -404,14 +404,14 @@
 .channel-members-loading .member,
 .typing {
     background: #000000 !important;
-	border-left: 2px solid #FF0000;
+	border-left: 2px solid #ffff00 ;
 }
 
 /*###############################################################################*/
 /*Guild area styling and formatting*/
 .guild-inner:hover,
 li.active .guild-inner {
-    background-color: #5B0000 !important;
+    background-color: #7f6b00 !important;
 }
 
 .guilds-wrapper {
@@ -448,7 +448,7 @@ li.active .guild-inner {
 }
 
 .channel:not(.selected):hover {
-    background: #5B0000;
+    background: #7f6b00;
 }
 
 .guild-channels .channel-text.selected:before,
@@ -457,7 +457,7 @@ li.active .guild-inner {
 .guild-channels .channel-text:hover:not(.unread):before,
 .private-channels .channel.selected:before,
 .private-channels .channel:hover:before {
-    border-left: 1px solid #5B0000;
+    border-left: 1px solid #7f6b00;
 }
 
 .private-channels .channel:hover:before {
@@ -468,7 +468,7 @@ li.active .guild-inner {
 /*Search Bar Formatting*/
 .search-result,
 .tab-bar-item:hover {
-    background: #5B0000 !important;
+    background: #7f6b00 !important;
 }
 
 /*###############################################################################*/
@@ -479,7 +479,7 @@ li.active .guild-inner {
 .search-result.selected,
 .channel.selected.private,
 div.channel.channel-text.selected {
-    background: #5B0000 !important;
+    background: #7f6b00 !important;
 }
 
 /*###############################################################################*/
@@ -493,7 +493,7 @@ div.channel.channel-text.selected {
 #voice-connection .btn,
 .account .btn {
     border: none;
-    border-bottom: 1px solid #FF0000;
+    border-bottom: 1px solid #ffff00 ;
     background-color: #000000 !important;
     opacity: .65;
 }
@@ -502,7 +502,7 @@ div.channel.channel-text.selected {
 .account .btn-group {
     box-shadow: .75px 1.5px 1px #14171b;
     border: none;
-	color: #FF0000;
+	color: #ffff00 ;
 	background-color: #000000;
 }
 
@@ -537,7 +537,7 @@ div.channel.channel-text.selected {
 }
 
 .user-popout .user-popout-options .btn:hover {
-    background-color: #5B0000;
+    background-color: #7f6b00;
 }
 
 .user-popout .username {
@@ -547,15 +547,15 @@ div.channel.channel-text.selected {
 /*Tooltips*/
 .tooltip {
     background:#000000;
-    color: #FF0000;
+    color: #ffff00 ;
 }
 
 .tooltip.tooltip-right:after {
-    border-right-color:#FF0000;
+    border-right-color:#ffff00 ;
 }
 
 .tooltip.tooltip-top:after {
-    border-top-color:#FF0000;
+    border-top-color:#ffff00 ;
 }
 
 /*Friends*/
@@ -569,7 +569,7 @@ div.channel.channel-text.selected {
 }
 
 #friends .tab-bar-item:hover {
-	background-color: #5B0000 !important;
+	background-color: #7f6b00 !important;
 }
 
 .friends-header {
@@ -584,7 +584,7 @@ div.channel.channel-text.selected {
 /*Chat area*/
 .chat .flex-spacer {
     background: #000000;
-	border-bottom: 2px solid #FF0000;
+	border-bottom: 2px solid #ffff00 ;
 }
 
 .markup {
@@ -597,7 +597,7 @@ div.channel.channel-text.selected {
 }
 
 .chat .new-messages-bar:hover {
-    background-color: #5B0000;
+    background-color: #7f6b00;
 }
 
 .chat .new-messages-bar button:last-child {
@@ -612,7 +612,7 @@ div.channel.channel-text.selected {
 }
 
 .markup .mention:hover {
-    background-color: #5B0000 !important;
+    background-color: #7f6b00 !important;
     color: #ddd;
     border-radius: 10%;
 }
@@ -620,7 +620,7 @@ div.channel.channel-text.selected {
 /*URLs*/
 .message-group a span {
     color: #5af;
-    text-shadow: 1px 1px 0 #FF0000;
+    text-shadow: 1px 1px 0 #ffff00 ;
 }
 
 /*Code blocks*/
@@ -636,11 +636,11 @@ div.channel.channel-text.selected {
 
 /*Embeds*/
 .message-group .embed {
-	background-color: #5B0000;
+	background-color: #7f6b00;
 }
 
 .theme-dark .message-group .embed-wrapper .embed-color-pill {
-	background-color: #5B0000;
+	background-color: #7f6b00;
 }
 
 /*Spoiler tags*/
@@ -673,7 +673,7 @@ div.channel.channel-text.selected {
 
 /*Settings panel*/
 .settings .settings-header {
-    background: #5B0000;
+    background: #7f6b00;
 }
 
 .form .btn-primary {
@@ -681,15 +681,15 @@ div.channel.channel-text.selected {
 }
 
 .form .btn-primary:hover {
-    background-color: #5B0000;
+    background-color: #7f6b00;
 }
 
 .user-settings-modal a {
-    color: #5B0000;
+    color: #7f6b00;
 }
 
 .user-settings-modal a:hover {
-    color: #5B0000;
+    color: #7f6b00;
 }
 
 /*###############################################################################*/
@@ -703,7 +703,7 @@ div.channel.channel-text.selected {
 }
 
 .channel-members .invite-btn:hover {
-    background: #5B0000;
+    background: #7f6b00;
 }
 
 /*###############################################################################*/
@@ -718,7 +718,7 @@ div.channel.channel-text.selected {
 /*Emoji Screen Interface*/
 .emoji-picker .scroller {
     background-color: #000000;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 
 .emoji-picker .categories {
@@ -727,14 +727,14 @@ div.channel.channel-text.selected {
 
 .bda-dark .emoji-picker {
     background-color: #000000;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 
 .bda-dark .emoji-picker .category {
 	text-align: center;
     background-color: #000000;
-	color: #FF0000;
-	border: 2px solid #FF0000;
+	color: #ffff00 ;
+	border: 2px solid #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
@@ -749,7 +749,7 @@ div.channel.channel-text.selected {
 
 .scroller-wrap .scroller {
     background-color: #000000 !important;
-	border-left: 2px solid #FF0000;
+	border-left: 2px solid #ffff00 ;
 	
 }
 
@@ -759,57 +759,57 @@ div.channel.channel-text.selected {
 
 .bda-dark .emoji-picker .search-bar input {
 	text-align: center;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
 }
 
 .search-bar.search-bar-light .search-bar-inner {
     background-color: #000000;
-    border: 2px solid #FF0000;
+    border: 2px solid #ffff00 ;
     border-radius: 3px!important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
 }
 
 .bda-dark #bda-qem button:hover {
-    background-color: #5B0000 !important;
-	color: #FF0000 !important;
+    background-color: #7f6b00 !important;
+	color: #ffff00  !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
 	font-weight: bold;
 }
 
 .bda-dark #bda-qem button {
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
     background-color: #000000 !important;
-    border-left: 2px solid #FF0000;
-    color: #FF0000;
+    border-left: 2px solid #ffff00 ;
+    color: #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
 }
 
 .bda-dark #bda-qem button:active{
-    background-color: #5B0000 !important;
-    border-left: 2px solid #FF0000;
-    color: #FF0000;
+    background-color: #7f6b00 !important;
+    border-left: 2px solid #ffff00 ;
+    color: #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
 	font-weight: bold !important;
 }
 
 .emote-menu-inner {
     background-color: #000000 !important;
-	border-left: 2px solid #FF0000;
+	border-left: 2px solid #ffff00 ;
 }
 
 /*DM Interface Elements*/
 .scroller-fzNley {
 	background-color: #000000 !important;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 
 /*###############################################################################*/
 /*File Upload Interface Interface*/
 .upload-modal {
 	background-color: #000000 !important;
-	border: 5px solid #FF0000;
+	border: 5px solid #ffff00 ;
 }
 
 .upload-modal .inner .file {
@@ -819,15 +819,15 @@ div.channel.channel-text.selected {
 .upload-modal .inner .file .icon.image {
 	width: 300px;
     height: 150px;
-	border: 2px solid #FF0000 !important;
+	border: 2px solid #ffff00  !important;
 }
 
 .upload-modal .inner {
-	border: 1px solid #FF0000 !important;
+	border: 1px solid #ffff00  !important;
 }
 
 .upload-modal .inner .file .description .filename {
-	color: #FF0000;
+	color: #ffff00 ;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
 	font-weight: bold !important;
 }
@@ -846,9 +846,9 @@ div.channel.channel-text.selected {
 }
 
 .upload-modal .footer .button { 
-	background-color: #5B0000 !important;
+	background-color: #7f6b00 !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	border: 1px solid #FF0000;
+	border: 1px solid #ffff00 ;
 	color: #fff;
 	font-weight: bold;
 }
@@ -860,33 +860,33 @@ div.channel.channel-text.selected {
 #user-profile-modal .header:after {
 	background-color: #000000 !important;
 	background-image: linear-gradient(-180deg,#000,#000);
-	border-left: 2px solid #FF0000;
-	border-right: 2px solid #FF0000;
-	border-top: 2px solid #FF0000;
+	border-left: 2px solid #ffff00 ;
+	border-right: 2px solid #ffff00 ;
+	border-top: 2px solid #ffff00 ;
 }
 
 /*User Name*/
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	font-weight: bold;
 }
 
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	font-weight: bold;	
 }
 
 /*Tab Bar Item*/
 #user-profile-modal .tab-bar .tab-bar-item {
-	color: #FF0000;
+	color: #ffff00 ;
 	font-weight: bold;
 }
 
 #user-profile-modal .tab-bar .tab-bar-item.selected {
-    border-bottom-color: #5B0000;
-    color: #5B0000;
+    border-bottom-color: #7f6b00;
+    color: #7f6b00;
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -894,23 +894,23 @@ div.channel.channel-text.selected {
 /*Container Bar*/
 #user-profile-modal .tab-bar-container {
 	background-color: #000000;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 
 #user-profile-modal .scroller{
 	background-color: #000000;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 
 /*Connected Accounts*/
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
     border-radius: 3px;
-    border: 1px solid #FF0000;
+    border: 1px solid #ffff00 ;
 }
 
 #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	font-weight: bold;
 }
 
@@ -921,7 +921,7 @@ div.channel.channel-text.selected {
 	width: 128;
 	background-size: 128px 128px;
 	background-repeat: no-repeat;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 
 #user-profile-modal .avatar-wrapper {
@@ -930,17 +930,17 @@ div.channel.channel-text.selected {
 
 /*Note Section Styling*/
 #user-profile-modal .guilds .section+.section {
-    border-top: 2px solid #FF0000;
+    border-top: 2px solid #ffff00 ;
 }
 
 #user-profile-modal .guilds .section .section-header {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #5B0000 !important;
+	color: #7f6b00 !important;
 }
 
 #user-profile-modal .guilds .section .note textarea {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	text-align: center;
 	background-color: #000000;
 	font-size: 20px;
@@ -949,64 +949,64 @@ div.channel.channel-text.selected {
 /*Mutual Servers List Styling*/
 #user-profile-modal .guilds .guild .guild-name {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	background-color: #000000
 }
 
 #user-profile-modal .guilds .guild .guild-name:hover {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	background-color: #000000;
 	font-weight: bold;
 }
 
 #user-profile-modal .guilds .guild:hover {
     background: #000000;
-	border: 2px solid #FF0000;
-    color: #5B0000 !important;
+	border: 2px solid #ffff00 ;
+    color: #7f6b00 !important;
 	font-weight: bold;
 }
 
 /*Pop-up Profile */
 .user-popout .header {
 	background-color: #000000 !important;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 	background: #000000 !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 }
 
 .user-popout .username-wrapper .discord-tag, .user-popout .username-wrapper .nickname, .user-popout .username-wrapper .username {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 }
 
 .user-popout .username-wrapper .activity {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #5B0000 !important;
+	color: #7f6b00 !important;
 }
 
 .user-popout .body {
     background-color: #000000 !important;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 	background: #000000 !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 }
 
 .user-popout .footer {
     background-color: #000000 !important;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00 ;
 }
 
 .user-popout .body .section .label {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 }
 
 .note textarea {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000 !important;
+	color: #ffff00  !important;
 	text-align: center;
 	background-color: #000000;
 	font-size: 20px;
@@ -1017,34 +1017,34 @@ div.channel.channel-text.selected {
 }
 
 .user-popout .avatar-wrapper .avatar-popout {
-    border: 4px solid #FF0000;
-    background-color: #FF0000;
+    border: 4px solid #ffff00 ;
+    background-color: #ffff00 ;
 }
 
 /*Quick Message Styling*/
 .quick-message {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000;
+	color: #ffff00 ;
 	text-align: center;
 	font-weight: bold;
-    border: 1px solid #FF0000;
+    border: 1px solid #ffff00 ;
     background: #000000;
 }
 
 /**###############################################################################/
 /*Anouncement Styling*/
 .wrapper-2xO9RX {
-	background-color: #5B0000 !important;
+	background-color: #7f6b00 !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	border: 1px solid #FF0000;
+	border: 1px solid #ffff00 ;
 	color: #000;
 	font-weight: bold;
 }
 
 .badge {
-	background-color: #5B0000 !important;
+	background-color: #7f6b00 !important;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	border: 1px solid #FF0000;
+	border: 1px solid #ffff00 ;
 	color: #000;
 	font-weight: bold;
 }
@@ -1053,15 +1053,15 @@ div.channel.channel-text.selected {
 /*New Messages / Date Styling*/
 .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-	color: #FF0000;
+	color: #ffff00;
 }
 
 .messages .divider span{
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
     background: #000000 !important;
-	border: 2px solid #FF0000;
+	border: 2px solid #ffff00;
 }
 
 .theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
-    background: #FF0000;
+    background: #ffff00;
 }
