@@ -1,6 +1,3 @@
-//META{"name":"Mannhattan Project [Protocol: Green]","description":"A Fallout Inspired Pip-Boy Interface for DIscord. ","author":"The Mann","version":"1.0"}*//{}
-
-
 /* Copyright (c) 2016-2017 The Mann
  * Please do not redistribute without permission.
  * VERSION: 1.0.0
@@ -12,6 +9,8 @@
  * #05A20B - Slighly Darker Green
  */
 
+//META{"name":"Mannhattan Project [Protocol: Green]","description":"A Fallout Inspired Pip-Boy Interface for DIscord. ","author":"The Mann","version":"1.0"}*//
+ 
 /*###############################################################################*/
 /* Discord Background */
 .app {

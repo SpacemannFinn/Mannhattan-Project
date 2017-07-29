@@ -47,13 +47,13 @@
 /*###############################################################################*/
 /* Mention Styling*/
 .message-group .mentioned .message-text:after {
-	background-color: rgba(5,162,11,.2) !important;
+	background-color: rgba(127,107,0.2) !important;
     border-left: 4px solid #ffff00  !important;
 	padding-left: 5px;
 }
 
 .message-group .mentioned .message-text{
-	background-color: rgba(5,162,11,.2) !important;
+	background-color: rgba(127,107,0.2) !important;
     border-left: 4px solid #ffff00  !important;
 	padding-left: 5px;
 }
@@ -95,7 +95,7 @@
     top: 50%;
     left: 0;
     margin-top: -4px;
-    background-color: #00ff0a;
+    background-color: #ffff00;
 }
 
 
