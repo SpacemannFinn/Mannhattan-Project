@@ -25,5 +25,26 @@ You can check out Better Discord here at https://betterdiscord.net/home/.
 Once you have correctly installed this lovely theme, you can then refresh your Discord with Better Discord enabled and activate my wonderful themes for your enjoyment!!!
 ![Preview 5](https://media.discordapp.net/attachments/334011383140188161/340805667549872129/unknown.png "Preview 5")
 
+Holy deathclaw! Anything else oh glorious Tim the Enchanterer?
+*Throws Fireball*
 
+
+![Preview 6](https://media.discordapp.net/attachments/334011383140188161/340812456332886017/e7e358da5904fb50868b37c22a627b4b.png "Preview 6")
+
+
+This repository contains a variety of protocols!
+
+
+![Preview 7](https://media.discordapp.net/attachments/334011383140188161/340812863037898762/ebaec038f2ee028c49061978c775fa38.png "Preview 7")
+
+
+![Preview 8](https://media.discordapp.net/attachments/334011383140188161/340813093665767427/371885a3a408242bdc7a73a12aed9f2e.png "Preview 8")
+
+
+![Preview 9](https://media.discordapp.net/attachments/334011383140188161/340813297429250048/31975ab586784be3d262ba2bdade7dd7.png "Preview 9")
+
+
+![Preview 10](https://cdn.discordapp.com/attachments/334011383140188161/340815009024049163/36c7eca9ee886555dabfa118514b39be.png "Preview 10")
+
+![Preview 11](https://cdn.discordapp.com/attachments/334011383140188161/340815971205906434/fc3544284db62854e62a9cc5cd61b649.png "Preview 11")
 
